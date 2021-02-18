@@ -1,0 +1,78 @@
+const albums = [
+    {
+        id: 1,
+        name: 'Sun Ra: Space Is The Place',
+        image: 'sun-ra.png',
+        description: `an excellent introduction to Sun Ra's vast and free-form jazz catalog`,
+        category: 'jazz',
+        price: 20,
+        instock: true,
+    },
+    {
+        id: 2,
+        name: 'Os Mutantes: s/t',
+        image: 'osmutantes.png',
+        description: `the debut eponymous album by the Brazilian tropicalia band Os Mutantes`,
+        category: 'tropicalia',
+        price: 18,
+        instock: true,
+    },
+    {
+        id: 3,
+        name: 'Kate Bush: Hounds Of Love',
+        image: 'kate-bush.png',
+        description: `the fifth studio album by English singer-songwriter and musician Kate Bush`,
+        category: 'art pop',
+        price: 22,
+        instock: true,
+    },
+    {
+        id: 4,
+        name: 'Beach Boys: Pet Sounds',
+        image: 'beach-boys.png',
+        description: `Maybe the best record ever recorded?`,
+        category: 'pop',
+        price: 21,
+        instock: false,
+    },
+    {
+        id: 5,
+        name: 'Sam Cooke: Live At The Harlem Square Club',
+        image: 'sam-cooke.png',
+        description: `the second live album by the American singer-songwriter Sam Cooke`,
+        category: 'soul',
+        price: 24,
+        instock: true,
+    },
+    {
+        id: 6,
+        name: 'Duster: Stratosphere',
+        image: 'duster.png',
+        description: `the debut studio album by American space-rock band Duster`,
+        category: 'slowcore',
+        price: 23,
+        instock: false,
+    },
+    {
+        id: 7,
+        name: 'WITCH: Lazy Bones',
+        image: 'witch.png',
+        description: `One of the defining albums from the zam-rock movement`,
+        category: 'zam-rock',
+        price: 21,
+        instock: true,
+    },
+    {
+        id: 8,
+        name: 'The Cure: The Head On The Door',
+        image: 'cure.png',
+        description: `the Cure's first truly pop record`,
+        category: 'new-wave',
+        price: 18,
+        instock: true,
+    },
+];
+
+module.exports = {
+    albums
+}
